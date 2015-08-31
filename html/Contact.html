@@ -7,7 +7,7 @@
     </title>
 </head>
 <body>
-<div id="header" style="text-align: center; background-color: black; tex: white">
+<div id="header" style="text-align: center; background-color: black">
     <a href="Main_Page.html" style="color: white">Home Page</a> |
     <a href="Personal_Info.html" style="color: white">About Me</a> |
     <a href="Resume.html" style="color: white">My Work</a> |
@@ -17,17 +17,21 @@
     Would you like more information, or have suggestions for this site?<br>
     Contact me using the form below!
     <br> <br>
-<form action="mailto:t_adam87@yahoo.com" method="post" id="contactForm">
-    <div style="float: left; position: relative; margin-right: 40px">
+<form action="mailto:t_adam87@yahoo.com" enctype="text/plain">
+    <div>
         Your name:<br>
-        <input type="text" name="Name" placeholder="First and Last Name"><br>
-        Your E-mail:<br>
-        <input type="text" name="Email" placeholder="E-mail Address"><br>
-        <input type="hidden" name="Subject" value="Request for Information">
+        <input type="text" name="name" id="Name" value="" placeholder="First and Last Name">
     </div>
-    <div style="position: relative">
+    <div>
+        Your E-mail:<br>
+        <input type="email" name="email" id="Email" value="" placeholder="E-mail Address">
+    </div>
+    <div>
+        <input type="hidden" name="Subject" id="Subject" value="Request for Information">
+    </div>
+    <div>
         Message:<br>
-        <input type="text" name="Comment" placeholder="Enter the message here." size="50">
+        <input type="text" name="Message" value="" placeholder="Enter the message here." size="50">
         <br>
         <br>
     </div>
@@ -36,5 +40,16 @@
         <input type="reset" value="Reset Form">
     </div>
 </form>
+<!--<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">-->
+    <!--Name:<br>-->
+    <!--<input type="text" name="name" value="your name"><br>-->
+    <!--E-mail:<br>-->
+    <!--<input type="text" name="mail" value="your email"><br>-->
+    <!--Comment:<br>-->
+    <!--<input type="text" name="comment" value="your comment" size="50"><br><br>-->
+    <!--<input type="submit" value="Send">-->
+    <!--<input type="reset" value="Reset">-->
+<!--</form>-->
+
 </body>
 </html>
