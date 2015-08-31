@@ -2,22 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>
+
+    </title>
 </head>
 <body>
+<div id="header" style="text-align: center; background-color: black; tex: white">
+    <a href="Main_Page.html" style="color: white">Home Page</a> |
+    <a href="Personal_Info.html" style="color: white">About Me</a> |
+    <a href="Resume.html" style="color: white">My Work</a> |
+    <a href="Contact.html" style="color: white"> Contact Me</a>
+    <hr>
+</div>
     Would you like more information, or have suggestions for this site?<br>
     Contact me using the form below!
     <br> <br>
-<form action="MAILTO:t_adam87@yahoo.com" method="post" id="contactForm">
+<form action="mailto:t_adam87@yahoo.com" method="post" id="contactForm">
     <div style="float: left; position: relative; margin-right: 40px">
         Your name:<br>
-        <input type="text" name="Name" value="First and Last Name"><br>
+        <input type="text" name="Name" placeholder="First and Last Name"><br>
         Your E-mail:<br>
-        <input type="text" name="Email" value="E-mail Address"><br>
+        <input type="text" name="Email" placeholder="E-mail Address"><br>
+        <input type="hidden" name="Subject" value="Request for Information">
     </div>
     <div style="position: relative">
         Message:<br>
-        <input type="text" name="Comment" value="Enter the message here." size="50">
+        <input type="text" name="Comment" placeholder="Enter the message here." size="50">
         <br>
         <br>
     </div>
