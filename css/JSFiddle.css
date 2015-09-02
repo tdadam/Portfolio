@@ -26,3 +26,18 @@ footer {
     text-align: center;
     color: white;
 }
+header *, footer * {
+    color: white
+}
+#title {
+    background-image: url(../images/Title_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center
+}
+#title > h1 {
+    color: darkslategray
+}
+#title > h4 {
+color: antiquewhite
+}
