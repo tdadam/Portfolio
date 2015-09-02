@@ -25,6 +25,7 @@ footer {
     max-height: 25px;
     text-align: center;
     color: white;
+    z-index: 3;
 }
 header *, footer * {
     color: white
@@ -39,5 +40,19 @@ header *, footer * {
     color: darkslategray
 }
 #title > h4 {
-color: antiquewhite
+    color: antiquewhite
+}
+
+#sidebar {
+    position: fixed;
+    left: 0px;
+    z-index: 2;
+    background-color: darkgrey;
+    width: 350px;
+    border: black 5px;
+    height: 100%
+}
+.sidebarText *{
+    color: black;
+    text-decoration: none;
 }
