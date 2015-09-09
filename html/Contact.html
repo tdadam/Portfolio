@@ -9,61 +9,58 @@
     </title>
 </head>
 <body>
-<header>
-    <a href="Main_Page.html">Home Page</a> |
-    <a href="Personal_Info.html">About Me</a> |
-    <a href="Resume.html">My Work</a> |
-    <a href="Contact.html"> Contact Me</a>
-    <hr>
-</header>
-    Would you like more information, or have suggestions for this site?<br>
-    Contact me using the form below!
-    <br> <br>
-<article>
-<form action="mailto:t_adam87@yahoo.com?subject=Contact from Portfolio" method="post" enctype="text/plain">
-    <div>
-        Your name:<br>
-        <input type="text" name="Name" id="Name" value="" placeholder="J. Doe" required>
-    </div>
-    <div>
-        Phone Number:<br>
-        <input type="text" maxlength="14" name="Phone Number" value="" placeholder="(555) 555-5555">
-    </div>
-    <div>
-        Your E-mail:<br>
-        <input type="email" name="Contact Information" id="Email" value="" placeholder="test@test.com" required>
-    </div>
-    <div>
-        Message:<br>
-        <input type="text" name="Comment or Request" value="" placeholder="How may I help you?" size="50">
-        <br>
-        <br>
-    </div>
-    <div>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-    </div>
-</form>
-<!--<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">-->
-    <!--Name:<br>-->
-    <!--<input type="text" name="name" value="your name"><br>-->
-    <!--E-mail:<br>-->
-    <!--<input type="text" name="mail" value="your email"><br>-->
-    <!--Comment:<br>-->
-    <!--<input type="text" name="comment" value="your comment" size="50"><br><br>-->
-    <!--<input type="submit" value="Send">-->
-    <!--<input type="reset" value="Reset">-->
-<!--</form>-->
-<!--<form action="mailto:name@example.com?subject=Website Feedback" method="post" enctype="text/plain">-->
-    <!--Email Adress:<br />-->
-    <!--<input type="text" name="email_address" value="" maxlength="100" /><br />-->
+<!--<header>-->
+    <!--<a href="Main_Page.html">Home Page</a> |-->
+    <!--<a href="Personal_Info.html">About Me</a> |-->
+    <!--<a href="Resume.html">My Work</a> |-->
+    <!--<a href="Contact.html"> Contact Me</a>-->
+    <!--<hr>-->
+<!--</header>-->
+    <!--Would you like more information, or have suggestions for this site?<br>-->
+    <!--Contact me using the form below!-->
+    <!--<br> <br>-->
+<article class="contactPage">
+<span id="contact">
+                <form action="mailto:t_adam87@yahoo.com?subject=Contact from Portfolio" method="post"
+                      enctype="text/plain">
+                    <div style="padding-left: 7px">
+                        <h4>Submit Comments or Questions</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <label>
+                                Name:
+                            </label>
 
-    <!--Comments:<br />-->
-    <!--<textarea rows="5" cols="20" name="comments"></textarea><br />-->
+                            <div>
+                                <input name="Name" type="text" maxlength="155" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <label>
+                                Email:
+                            </label>
 
-    <!--<input type="submit" value="Submit" />-->
+                            <div>
+                                <input name="Email" type="text" maxlength="155" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <label>
+                                Comment or Question:
+                            </label>
 
-<!--</form>-->
+                            <div>
+                                <textarea name="Feedback" rows="10" cols="30"></textarea>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="submit" name="Submit" value="Submit">
+                            <input type="reset" name="Reset" value="Reset">
+                        </li>
+                    </ul>
+                </form>
+        </span>
 </article>
 <footer>
     <a href="Personal_Info.html">Info about me</a> |
