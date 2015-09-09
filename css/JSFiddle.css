@@ -20,7 +20,7 @@ header {
 }
 article {
     flex: 8;
-    overflow-y: scroll;
+    overflow-y: auto;
     color: black;
 
 }
@@ -28,6 +28,7 @@ footer {
     flex: 1;
     background: rgba(84, 135, 178, 0.65);
     max-height: 25px;
+    min-height: 25px;
     text-align: center;
     color: white;
     z-index: 3;
@@ -36,7 +37,7 @@ footer {
 header *, footer * {
     color: white;
 }
-#title {
+.title {
     text-align: center;
     border: 5px solid black;
     margin-left: 300px;
@@ -44,12 +45,12 @@ header *, footer * {
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.7);
 }
-#body {
+.body {
     background-color: rgba(255, 255, 255, 0.7);
     margin-left: 290px;
     padding-left: 10px;
 }
-#sidebar {
+article nav {
     position: fixed;
     left: 0px;
     float: left;
@@ -65,14 +66,14 @@ header *, footer * {
 .sidebarText h1, h2{
     padding-left: 7px;
 }
-
-#contact{
-    max-width: 280px;
-}
 form input, textarea {
     border: black solid 1px
 }
 .contactPage{
     display: flex;
-
+    justify-content: center;
+    height: 100%;
+}
+#contactInfo{
+    padding-top: 21px;
 }
