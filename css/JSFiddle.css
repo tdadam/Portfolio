@@ -37,17 +37,23 @@ footer {
 header *, footer * {
     color: white;
 }
-.title {
+.titleMain {
     text-align: center;
     border: 5px solid black;
-    margin-left: 300px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin: 10px 20px 0 300px;
     background-color: rgba(255, 255, 255, 0.7);
 }
+.titleMe{
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 .body {
     background-color: rgba(255, 255, 255, 0.7);
     margin-left: 290px;
+    margin-right: 10px;
     padding-left: 10px;
 }
 article nav {
@@ -76,4 +82,7 @@ form input, textarea {
 }
 #contactInfo{
     padding-top: 21px;
+}
+.table{
+
 }
