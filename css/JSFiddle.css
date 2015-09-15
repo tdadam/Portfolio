@@ -106,11 +106,21 @@ ul {
     padding-left: 15px;
 }
 .top-left {
-    background-image: url("../images/Iceland2.jpg");
+    background: url("../images/Iceland2.jpg") no-repeat;
+    background-size: cover;
+
 }
 .top-right {
     background-image: url("../images/Iceland3.jpg");
 }
-.row {
-    min-height: 750px;
+.bottom-left {
+    background: url("../images/Iceland4.jpg") no-repeat;
+    background-size: cover;
+
+}
+.bottom-right {
+    background-image: url("../images/Iceland5.jpg");
+}
+.container {
+    width: inherit;
 }
