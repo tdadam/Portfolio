@@ -91,6 +91,16 @@ form input, textarea {
 #contactInfo{
     margin-top: 10px;
 }
-.table{
-
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin: 0 20px 0 20px;
+}
+table td, th {
+    border: solid 2px black;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding-left: 15px;
 }
