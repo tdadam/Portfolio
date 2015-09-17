@@ -67,7 +67,7 @@ header *, footer * {
 }
 article nav {
     position: fixed;
-    left: 0px;
+    left: 0;
     float: left;
     background-color: rgba(249, 248, 248, 0.84);
     width: 280px;
@@ -107,20 +107,46 @@ ul {
 }
 .top-left {
     background: url("../images/Iceland2.jpg") no-repeat;
-    background-size: cover;
+    height: 500px;
 
 }
 .top-right {
-    background-image: url("../images/Iceland3.jpg");
+    background: url("../images/Iceland3.jpg") no-repeat;
+    height: 500px;
 }
 .bottom-left {
     background: url("../images/Iceland4.jpg") no-repeat;
-    background-size: cover;
+    height: 500px;
 
 }
 .bottom-right {
-    background-image: url("../images/Iceland5.jpg");
+    background: url("../images/Iceland5.jpg") no-repeat;
+    height: 500px;
 }
 .container {
     width: inherit;
+}
+#mainContact {
+    display: flex;
+    align-content: space-around;
+    height: 75px;
+}
+
+.contactFlex {
+    margin: auto;
+}
+.projectName {
+    padding: 5px 0 5px 15px;
+    font-size: 24pt;
+    color: #131E4A;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 380px;
+    width: 285px;
+}
+.projectLink {
+    text-decoration: none;
+    color: #131E4A;
+}
+.projectLink:hover{
+    text-decoration: none;
 }
