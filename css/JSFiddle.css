@@ -106,22 +106,22 @@ ul {
     padding-left: 15px;
 }
 .top-left {
-    background: url("../images/Iceland1.png") no-repeat;
+    background: url("../images/resume.png") no-repeat;
     height: 500px;
     padding-top: 380px;
 }
 .top-right {
-    background: url("../images/Iceland2.png") no-repeat;
+    background: url("../images/golf_card.png") no-repeat;
     height: 500px;
     padding-top: 380px;
 }
 .bottom-left {
-    background: url("../images/Iceland3.png") no-repeat;
+    background: url("../images/game_flappy.png") no-repeat;
     height: 500px;
     padding-top: 380px;
 }
 .bottom-right {
-    background: url("../images/Iceland4.png") no-repeat;
+    background: url("../images/to_do.png") no-repeat;
     height: 500px;
     padding-top: 380px;
 }
@@ -142,11 +142,11 @@ ul {
 }
 
 .projectName {
-    padding: 5px 0 5px 15px;
+    padding: 0 0 1px 15px;
     font-size: 24pt;
     color: #131E4A;
     background-color: rgba(255, 255, 255, 0.6);
-    width: 285px;
+    width: 365px;
 }
 .projectLink {
     text-decoration: none;
